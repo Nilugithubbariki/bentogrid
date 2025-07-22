@@ -14,15 +14,11 @@ function App() {
         "
       >
         {/* Payment Method */}
-        <div className="
-          bg-white rounded-xl shadow px-4 py-4 flex flex-col justify-between
-          col-span-1
-          md:col-span-2
-          lg:col-span-1
-          row-span-1
-        ">
+        <div className="bg-white rounded-xl shadow px-4 py-4 flex flex-col justify-between col-span-1 md:col-span-2 lg:col-span-1 row-span-1">
           <div>
-            <h2 className="font-semibold text-base mb-4">Payment Method</h2>
+            <h2 className="font-semibold text-base mb-4 text-gray-900">
+              Payment Method
+            </h2>
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <span className="w-7 h-7 flex items-center justify-center rounded bg-white border">
@@ -32,8 +28,10 @@ function App() {
                     alt="Mastercard"
                   />
                 </span>
-                <span className="flex-1">**** **** **** 2072</span>
-                <span className="text-xs font-medium bg-gray-100 px-2 rounded">
+                <span className="flex-1 text-gray-900">
+                  **** **** **** 2072
+                </span>
+                <span className="text-xs font-medium bg-gray-100 px-2 rounded text-gray-700">
                   Mastercard
                 </span>
               </div>
@@ -45,8 +43,10 @@ function App() {
                     alt="Visa"
                   />
                 </span>
-                <span className="flex-1">**** **** **** 2072</span>
-                <span className="text-xs font-medium bg-gray-100 px-2 rounded">
+                <span className="flex-1 text-gray-900">
+                  **** **** **** 2072
+                </span>
+                <span className="text-xs font-medium bg-gray-100 px-2 rounded text-gray-700">
                   Visa
                 </span>
               </div>
@@ -58,8 +58,10 @@ function App() {
                     alt="Amex"
                   />
                 </span>
-                <span className="flex-1">**** **** **** 2072</span>
-                <span className="text-xs font-medium bg-gray-100 px-2 rounded">
+                <span className="flex-1 text-gray-900">
+                  **** **** **** 2072
+                </span>
+                <span className="text-xs font-medium bg-gray-100 px-2 rounded text-gray-700">
                   Amex
                 </span>
               </div>
@@ -71,13 +73,7 @@ function App() {
         </div>
 
         {/* Slogan */}
-        <div className="
-          bg-white rounded-xl shadow flex items-center justify-center relative overflow-hidden
-          col-span-1
-          md:col-span-2
-          lg:col-span-1
-          row-span-1
-        ">
+        <div className="bg-white rounded-xl shadow flex items-center justify-center relative overflow-hidden col-span-1 md:col-span-2 lg:col-span-1 row-span-1">
           <div className="absolute inset-0 pointer-events-none">
             <span className="absolute right-4 top-4 text-lg">🔔</span>
             <svg width="100%" height="100%">
@@ -85,7 +81,7 @@ function App() {
             </svg>
           </div>
           <div className="relative z-10 px-4 py-8">
-            <h1 className="font-bold text-2xl md:text-3xl leading-tight">
+            <h1 className="font-bold text-2xl md:text-3xl leading-tight text-gray-900">
               Smart Banking
               <br />
               Smart Living
@@ -94,14 +90,7 @@ function App() {
         </div>
 
         {/* Profile image */}
-        <div className="
-          bg-white rounded-xl shadow overflow-hidden flex items-center justify-center
-          col-span-1
-          md:col-span-2
-          lg:col-span-1
-          row-span-1
-          lg:row-span-2
-        ">
+        <div className="bg-white rounded-xl shadow overflow-hidden flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1 row-span-1 lg:row-span-2">
           <img
             src="https://media.istockphoto.com/id/1396644902/photo/businesswoman-posing-and-smiling-during-a-meeting-in-an-office.jpg?s=612x612&w=0&k=20&c=7wzUE1CRFOccGnps-XZWOJIyDvqA3xGbL2c49PU5_m8="
             alt="Profile"
@@ -110,13 +99,7 @@ function App() {
         </div>
 
         {/* Meeting photo */}
-        <div className="
-          bg-white rounded-xl shadow overflow-hidden flex items-center justify-center
-          col-span-1
-          md:col-span-2
-          lg:col-span-1
-          row-span-1
-        ">
+        <div className="bg-white rounded-xl shadow overflow-hidden flex items-center justify-center col-span-1 md:col-span-2 lg:col-span-1 row-span-1">
           <img
             src="https://images.pexels.com/photos/3184298/pexels-photo-3184298.jpeg"
             alt="Meeting"
@@ -125,13 +108,7 @@ function App() {
         </div>
 
         {/* Icon Grid */}
-        <div className="
-          grid grid-cols-2 grid-rows-2 gap-2 bg-transparent
-          col-span-1
-          md:col-span-1
-          lg:col-span-1
-          row-span-1
-        ">
+        <div className="grid grid-cols-2 grid-rows-2 gap-2 bg-transparent col-span-1 md:col-span-1 lg:col-span-1 row-span-1">
           {[
             "https://media.istockphoto.com/id/1255835530/photo/modern-custom-suburban-home-exterior.jpg?s=612x612&w=0&k=20&c=0Dqjm3NunXjZtWVpsUvNKg2A4rK2gMvJ-827nb4AMU4=",
             "https://media.istockphoto.com/id/181866332/photo/red-wall-calendar.jpg?s=612x612&w=0&k=20&c=FpWwH-rY03pLmNsibkcJ_zbnqCIx1sbI5pRsQ9q5yLg=",
@@ -148,14 +125,7 @@ function App() {
         </div>
 
         {/* Mobile phone */}
-        <div className="
-          bg-white rounded-xl shadow overflow-hidden flex items-center justify-center
-          col-span-1
-          md:col-span-1
-          lg:col-span-1
-          row-span-1
-          lg:row-span-2
-        ">
+        <div className="bg-white rounded-xl shadow overflow-hidden flex items-center justify-center col-span-1 md:col-span-1 lg:col-span-1 row-span-1 lg:row-span-2">
           <img
             src="https://images.pexels.com/photos/1786433/pexels-photo-1786433.jpeg?cs=srgb&dl=pexels-hammad-khalid-155549-1786433.jpg&fm=jpg"
             alt="Mobile"
@@ -165,54 +135,54 @@ function App() {
 
         {/* Total Ads */}
         <div className="bg-white rounded-xl shadow flex flex-col justify-between px-5 py-5">
-  <span className="font-semibold text-base">Total Ads</span>
-  <div className="flex items-baseline mt-2 space-x-2">
-    <span className="text-2xl font-bold">725K</span>
-    <span className="text-green-600 text-base font-medium">+15%</span>
-  </div>
-  <svg width="96" height="30" className="mt-2">
-    <polyline
-      fill="none"
-      stroke="#34D399"
-      strokeWidth="3"
-      points="8,24 32,12 50,18 68,8 88,20"
-    />
-  </svg>
-</div>
-
+          <span className="font-semibold text-base text-gray-900">
+            Total Ads
+          </span>
+          <div className="flex items-baseline mt-2 space-x-2">
+            <span className="text-2xl font-bold text-gray-900">725K</span>
+            <span className="text-green-600 text-base font-medium">+15%</span>
+          </div>
+          <svg width="96" height="30" className="mt-2">
+            <polyline
+              fill="none"
+              stroke="#34D399"
+              strokeWidth="3"
+              points="8,24 32,12 50,18 68,8 88,20"
+            />
+          </svg>
+        </div>
 
         {/* Stock Intelligence */}
-       <div className="bg-white rounded-xl shadow flex flex-col justify-between px-5 py-4">
-  <span className="font-semibold text-base mb-2">Stock Intelligence</span>
-  <div className="flex items-end mt-2 justify-between">
-    <svg width="80" height="34" className="mr-2">
-      <polyline
-        fill="none"
-        stroke="#e67c73"
-        strokeWidth="3"
-        points="5,30 38,18 62,24 98,8 112,28"
-      />
-    </svg>
-    <span className="font-bold text-lg ml-auto">$92,020</span>
-  </div>
-</div>
-
+        <div className="bg-white rounded-xl shadow flex flex-col justify-between px-5 py-4">
+          <span className="font-semibold text-base mb-2 text-gray-900">
+            Stock Intelligence
+          </span>
+          <div className="flex items-end mt-2 justify-between">
+            <svg width="80" height="34" className="mr-2">
+              <polyline
+                fill="none"
+                stroke="#e67c73"
+                strokeWidth="3"
+                points="5,30 38,18 62,24 98,8 112,28"
+              />
+            </svg>
+            <span className="font-bold text-lg ml-auto text-gray-900">
+              $92,020
+            </span>
+          </div>
+        </div>
 
         {/* Organic Position */}
-        <div className="
-          bg-white rounded-xl flex flex-col shadow px-6 py-6 justify-between
-          col-span-1
-          md:col-span-2
-          lg:col-span-2
-          row-span-1
-        ">
+        <div className="bg-white rounded-xl flex flex-col shadow px-6 py-6 justify-between col-span-1 md:col-span-2 lg:col-span-2 row-span-1">
           <div className="flex justify-between items-start mb-2">
-            <span className="font-semibold mb-1 text-lg">Organic Position</span>
-            <select className="bg-gray-100 px-2 py-1 text-xs rounded">
+            <span className="font-semibold mb-1 text-lg text-gray-900">
+              Organic Position
+            </span>
+            <select className="bg-gray-100 px-2 py-1 text-xs rounded text-gray-900">
               <option>Today</option>
             </select>
           </div>
-          <span className="text-4xl font-bold mb-2">
+          <span className="text-4xl font-bold mb-2 text-gray-900">
             54 <span className="text-2xl text-gray-700">%</span>{" "}
             <span className="text-lg font-light text-gray-400">Avg</span>
           </span>
